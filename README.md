@@ -30,3 +30,4 @@ Windows:
 
 Желаем всем удачного пользования, все права защищены.
 
+Поддержать проект: https://www.donationalerts.com/r/wqlcxm
