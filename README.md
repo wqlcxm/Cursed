@@ -30,5 +30,10 @@ Windows:
 
 Желаем всем удачного пользования, все права защищены.
 
+Скриншоты:
+![image_2023-10-16_14-28-33](https://github.com/wqlcxm/Cursed/assets/147910015/75514343-dcce-4754-bab6-767a7b3a7675)
+![image_2023-10-16_14-29-06](https://github.com/wqlcxm/Cursed/assets/147910015/f638e9ea-ddb7-4280-b9f3-77dc993556cf)
+
+
 Поддержать проект: https://www.donationalerts.com/r/wqlcxm
 Следите за новостями: https://t.me/curseddoxx
