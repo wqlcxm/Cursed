@@ -17,31 +17,20 @@ print ("┌Выберите действие")
 print ("\033[35m[1] Поиск по номеру           ┇         [2] SMS BOMBER ")
 print ("[3] Tutorials                 ┇         [4] DDos")
 print ("[5] О проекте                 ┇         [6] Discord Start Token (by FileZ) ")
-print ("[7] Выход")
+print ("[7] Установка модулей         ┇         [8] Поиск по телеграм" )
+print ("[9] Показать лого             ┇         [10] Выйти")
 print ("Возникли ошибки? Обращайтесь к @doxbinstyle (тг)")
 select = input("└Выбрать ")
 print("==============================================")
 if select == '1':
-    os.system("clear")
-    os.system("CLS")
-    print("\033[35m")
-    from get_number import bs4 , BeautifulSoup
-    bs4()
-    BeautifulSoup()
-    from bs4 import BeautifulSoup
+    from get_number import get_number
+    database_file = 'number.csv'
+    search_value = input(f'[i]Введите номер телефона:')
+    get_number(database_file, search_value)
 
 elif select == '2':
-    from bomber import requests, random, datetime, sys, time, argparse, os , colorama
-    random()
-    datetime()
-    sys()
+    from bomber import time
     time()
-    argparse()
-    os()
-    colorama()
-    from colorama import Fore, Back, Style
-    from colorama import init
-    init()
 
 
 elif select == '3':
@@ -79,5 +68,25 @@ elif select == "6":
 
 
 elif select =='7':
+    from install import os
+
+elif select == "8":
+    from get_telegram import get_telegram
+    database_file = 'telegram.csv'
+    search_value = input("[i]Введите ID аккаунта:")
+    get_telegram(database_file, search_value)
+
+elif select == "9":
+    print("\033[31m░█████╗░██╗░░░██╗██████╗░░██████╗███████╗██████╗░")
+    print("██╔══██╗██║░░░██║██╔══██╗██╔════╝██╔════╝██╔══██╗")
+    print("██║░░╚═╝██║░░░██║██████╔╝╚█████╗░█████╗░░██║░░██║")
+    print("██║░░██╗██║░░░██║██╔══██╗░╚═══██╗██╔══╝░░██║░░██║")
+    print("╚█████╔╝╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝")
+    print("░╚════╝░░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░")
+    print("[!] ВЛ4CTb В TBONX PYKAX")
+
+elif select == "9":
     exit
 
+elif select == "exit":
+    exit
